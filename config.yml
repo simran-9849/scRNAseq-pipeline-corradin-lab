@@ -1,0 +1,15 @@
+samples:
+  sample1: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/Zia_scData/sample_01/"
+  sample2: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/Zia_scData/sample_02/"
+
+output:
+  rds: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/results/merged_seurat.RDS"
+  
+#Preprocessing
+input:
+  seurat: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/results/merged_seurat.RDS"
+
+output:
+  qc_violin: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/results/plots/qc_violin_plots.pdf"
+  scatter_plots: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/results/plots/scatter_plots.pdf"
+  seurat_qc: "/lab/corradin_data/FOR_SIMRAN/scRNA_seq/results/seurat_QC.rds"
