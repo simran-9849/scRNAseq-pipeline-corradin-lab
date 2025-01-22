@@ -16,7 +16,7 @@ This repository contains a comprehensive single-cell RNA sequencing (scRNA-seq) 
 
 ## Pipeline Steps
 
-1. Raw data processing (e.g., Cell Ranger for 10x Genomics data)
+1. Raw data processing (Cell Ranger for 10x Genomics data)
 2. Quality control and filtering
 3. Normalization and feature selection
 4. Dimensionality reduction (PCA, UMAP, t-SNE)
