@@ -29,7 +29,7 @@ This repository contains a comprehensive single-cell RNA sequencing (scRNA-seq) 
 
 ## Usage
 
-The pipeline can be easily configured and run on local machines or high-performance computing clusters. Detailed instructions for installation, configuration, and execution are provided in the documentation.
+The pipeline can be easily configured and run on local machines or high-performance computing clusters. 
 
 ## Requirements
 
@@ -37,7 +37,3 @@ The pipeline can be easily configured and run on local machines or high-performa
 - R with Seurat package
 - Python 3
 - Other dependencies specified in the environment.yaml file
-
-## Documentation
-
-Comprehensive documentation, including installation instructions, usage guidelines, and output descriptions, can be found in the `docs/` directory.
